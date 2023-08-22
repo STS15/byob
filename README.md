@@ -8,6 +8,9 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=BYOB%20(Post-Exploitation%20Framework)&url=https://github.com/itsvrl/byob&via=itsvrl&hashtags=byob,python,security,github)
 
 
+# Branch-off from the original BYOB Project. 
+This repo is to keep the project alive.
+
 **Questions?** Check out the [docs](https://github.com/itsvrl/byob/wiki) or join vrl's [Discord server](https://discord.gg/vrl)
 
 __Disclaimer__: This project should be used for authorized testing or educational purposes only.
