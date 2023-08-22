@@ -1,14 +1,14 @@
-![Banner](https://github.com/malwaredllc/byob/blob/master/byob/static/byob_logo_black.svg)
+![Banner](https://github.com/itsvrl/byob/blob/master/byob/static/byob_logo_black.svg)
 
-[![license](https://img.shields.io/badge/license-GPL-brightgreen.svg)](https://github.com/malwaredllc/byob/blob/master/LICENSE)
-[![version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/malwaredllc/byob)
-![build](https://github.com/malwaredllc/byob/workflows/build/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/malwaredllc/byob/badge.svg)](https://coveralls.io/github/malwaredllc/byob)
+[![license](https://img.shields.io/badge/license-GPL-brightgreen.svg)](https://github.com/itsvrl/byob/blob/master/LICENSE)
+[![version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/itsvrl/byob)
+![build](https://github.com/itsvrl/byob/workflows/build/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/itsvrl/byob/badge.svg)](https://coveralls.io/github/itsvrl/byob)
 <img alt="Discord" src="https://img.shields.io/discord/709150520446550097"/>
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=BYOB%20(Post-Exploitation%20Framework)&url=https://github.com/malwaredllc/byob&via=malwaredllc&hashtags=byob,python,security,github)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=BYOB%20(Post-Exploitation%20Framework)&url=https://github.com/itsvrl/byob&via=itsvrl&hashtags=byob,python,security,github)
 
 
-**Questions?** Check out the [docs](https://github.com/malwaredllc/byob/wiki) or join our [Discord support server](https://discord.gg/8FsSrw7)
+**Questions?** Check out the [docs](https://github.com/itsvrl/byob/wiki) or join my [Discord server](https://discord.gg/vrl)
 
 __Disclaimer__: This project should be used for authorized testing or educational purposes only.
 
@@ -27,22 +27,22 @@ This project has 2 main parts: the **original console-based application** (`/byo
 ## Dashboard
 A control panel for your C2 server with a point-and-click interface for executing post-exploitation modules. The control panel includes an interactive map of client machines and a dashboard which allows efficient, intuitive administration of client machines.
 
-![dashboard_preview](https://github.com/malwaredllc/byob/blob/master/web-gui/buildyourownbotnet/assets/images/previews/preview-dashboard.png)
+![dashboard_preview](https://github.com/itsvrl/byob/blob/master/web-gui/buildyourownbotnet/assets/images/previews/preview-dashboard.png)
 
 ## Payload Generator
 The payload generator uses black magic involving Docker containers & Wine servers to compile executable payloads for any platform/architecture you select. These payloads spawn reverse TCP shells with communication over the network encrypted via AES-256 after generating a secure symmetric key using the [Diffie-Hellman IKE](https://tools.ietf.org/html/rfc2409).
 
-![payloads_preview](https://github.com/malwaredllc/byob/blob/master/web-gui/buildyourownbotnet/assets/images/previews/preview-payloads2.png)
+![payloads_preview](https://github.com/itsvrl/byob/blob/master/web-gui/buildyourownbotnet/assets/images/previews/preview-payloads2.png)
 
 ## Terminal Emulator
 The web app includes an in-browser terminal emulator so you can still have direct shell access even when using the web GUI.
 
-![terminal_preview](https://github.com/malwaredllc/byob/blob/master/web-gui/buildyourownbotnet/assets/images/previews/preview-shell.png)
+![terminal_preview](https://github.com/itsvrl/byob/blob/master/web-gui/buildyourownbotnet/assets/images/previews/preview-shell.png)
 
 # Console Application
 
 ## Client
-[![client](https://img.shields.io/badge/byob-client-blue.svg)](https://github.com/malwaredllc/byob/blob/master/byob/payloads.py)
+[![client](https://img.shields.io/badge/byob-client-blue.svg)](https://github.com/itsvrl/byob/blob/master/byob/payloads.py)
 
 *Generate fully-undetectable clients with staged payloads, remote imports, and unlimited post-exploitation modules*
 
@@ -79,7 +79,7 @@ in the payload stager which is generated along with it
 12) __Prevent Reverse-Engineering__: by default, clients will abort execution if a virtual machine or sandbox is detected
 
 ## Modules
-[![modules](https://img.shields.io/badge/byob-modules-blue.svg)](https://github.com/malwaredllc/byob/blob/master/byob/modules)
+[![modules](https://img.shields.io/badge/byob-modules-blue.svg)](https://github.com/itsvrl/byob/blob/master/byob/modules)
 
 *Post-exploitation modules that are remotely importable by clients*
 
@@ -95,7 +95,7 @@ in the payload stager which is generated along with it
 10) __Miner__ (`byob.core.miner`): mine Monero in the background using the built-in miner or XMRig
 
 ## Server
-[![server](https://img.shields.io/badge/byob-server-blue.svg)](https://github.com/malwaredllc/byob/blob/master/byob/server.py)
+[![server](https://img.shields.io/badge/byob-server-blue.svg)](https://github.com/itsvrl/byob/blob/master/byob/server.py)
 
 *Command & control server with persistent database and console*
 
@@ -109,7 +109,7 @@ to remotely import without writing them to the disk of the target machines, allo
 packages not installed on the target machines
 
 ## Core
-[![core](https://img.shields.io/badge/byob-core-blue.svg)](https://github.com/malwaredllc/byob/blob/master/byob/core)
+[![core](https://img.shields.io/badge/byob-core-blue.svg)](https://github.com/itsvrl/byob/blob/master/byob/core)
 
 *Core framework modules used by the generator and the server*
 
